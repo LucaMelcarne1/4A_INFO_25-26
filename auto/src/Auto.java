@@ -5,6 +5,7 @@ public class Auto {
     double velocita;
     boolean frenoAMano;
     boolean accesa;
+    Persona pilota;
 
     void accensione(){
 
@@ -30,9 +31,15 @@ public class Auto {
 
     void accelera(double acc){
 
-        if (accesa && !frenoAMano )
+        if (accesa && !frenoAMano && pilota.calcolaEta(2025) >= 18)
         {
             velocita += acc;
+        }
+        else if(pilota.calcolaEta(2025) < 18) {
+            System.out.println("il pilota è minorenne");
+        } else {
+            System.out.println("l'auto è spenta oppure ha il freno a mano attivato");
+
         }
     }
 
@@ -51,8 +58,5 @@ public class Auto {
     double getVelocita() {
         return velocita;
     }
-
-
-
 
 }

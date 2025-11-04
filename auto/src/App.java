@@ -10,7 +10,25 @@ public class App {
         bravo.velocita = 0;
         bravo.frenoAMano = true;
         bravo.accesa = false;
-        //metodo di accensione
+       
+        //CREO UN NUOVO PILOTA
+        Persona luca = new Persona();
+        luca.nome = "Luca";
+        luca.cognome = "Melcarne";
+        luca.annoNascita = 1991;
+
+        //ASSOCIAMO LA PERSONA APPENA CREATA ALL'AUTO
+        bravo.pilota = luca;
+
+        //CREO UN NUOVO PILOTA
+        Persona matteo = new Persona();
+        matteo.nome = "Matteo";
+        matteo.cognome = "Russo";
+        matteo.annoNascita = 2010;
+
+
+
+
         bravo.accensione();
         System.out.println("L'auto è " + (bravo.accesa? "accesa" : "spenta"));
         
@@ -23,6 +41,7 @@ public class App {
         System.out.println("Il freno a mano è " + (bravo.frenoAMano? "inserito" : "disinserito"));
         
         //INIZIO AD ACCELERARE FINO AD ARRIVARE A 100 KM/H
+        //TODO: VIENE GENERATO UN LOOP INFINITO, NECESSARIO BUG FIXING 
         do {
 
             bravo.accelera(10);
