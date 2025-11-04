@@ -10,7 +10,7 @@ public class App {
         bravo.velocita = 0;
         bravo.frenoAMano = true;
         bravo.accesa = false;
-
+        //metodo di accensione
         bravo.accensione();
         System.out.println("L'auto è " + (bravo.accesa? "accesa" : "spenta"));
         
