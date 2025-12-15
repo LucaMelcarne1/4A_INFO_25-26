@@ -14,21 +14,7 @@ class Quadrato {
      * Tipo 'double' per gestire anche numeri con la virgola.
      */
     double lato;
-
-    // ---------------------------------------------------------
-    // COSTRUTTORE
-    // ---------------------------------------------------------
-
-    /*
-     * Costruttore della classe.
-     * Serve a creare un nuovo Quadrato assegnandogli subito una dimensione.
-     *
-     * @param latoIniziale: il valore numerico da assegnare al lato.
-     */
-    Quadrato(double latoIniziale) {
-        // Assegniamo il valore passato tra parentesi alla variabile dell'oggetto.
-        this.lato = latoIniziale;
-    }
+    
 
     // ---------------------------------------------------------
     // METODI
