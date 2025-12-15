@@ -25,10 +25,16 @@ class App {
          * Creiamo un nuovo oggetto di tipo Quadrato.
          * Chiamiamo il costruttore passando la 'lunghezzaLato'.
          */
-        Quadrato q = new Quadrato(lunghezzaLato);
+        Quadrato q = new Quadrato();
+
+        /*
+         * Assegniamo un valore al lato del quadrato appena creato
+         * utilizzando la dot notation (notazione mediante il punto)
+        */
+        q.lato = lunghezzaLato;
 
         // Stampiamo a video il lato che abbiamo scelto.
-        System.out.println("Lato del quadrato: " + lunghezzaLato);
+        System.out.println("Lato del quadrato: " + q.lato);
 
         // ---------------------------------------------------------
         // 2. USO DEI METODI
