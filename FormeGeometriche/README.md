@@ -1,18 +1,8 @@
-## Getting Started
+Il progetto ha la l'obiettivo di rendere famigliare la programmazione ad oggetti con Java.
+Seguire i seguenti step:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. creare un nuovo progetto Java in VSCode (videotutorial: https://youtube.com/shorts/5ipEWEvZL8s?si=yRsiW1vWmEPxdMta)
+2. nel progetto generato, creare una classe Quadrato nel file src/Quadrato.java
+3. nella classe Quadrato, copiare il codice riga per riga prendendolo dal presente progetto, leggendo attentamente i commenti
+4. Eseguirte la stessa procedura per la classe App
+5. Al termine, lanciare il progetto
