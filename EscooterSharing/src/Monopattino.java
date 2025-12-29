@@ -1,4 +1,4 @@
-public class Monopattino {
+class Monopattino {
     
     // Attributi
     String codice;
@@ -6,7 +6,7 @@ public class Monopattino {
     boolean disponibile;
 
     // Metodi
-    public void scaricaBatteria() {
+    void scaricaBatteria() {
         // il livello di carica scende del 20%
         this.batteria = this.batteria - 20;
         
@@ -15,7 +15,7 @@ public class Monopattino {
     }
 
     // Serve a visualizzare lo stato del monopattino
-    public String visualizzaDati() {
+    String visualizzaDati() {
         return "Codice monopattino " + codice + " - Batt: " + batteria + "% - In uso: " + disponibile;
     }
 }

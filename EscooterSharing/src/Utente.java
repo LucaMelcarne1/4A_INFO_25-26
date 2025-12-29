@@ -1,4 +1,4 @@
-public class Utente {
+class Utente {
    
     // Attributi
     String nome;
@@ -7,12 +7,12 @@ public class Utente {
 
 
     //Metodi
-    public void ricaricaCredito(double soldi) {
+    void ricaricaCredito(double soldi) {
         this.credito += soldi;
     }
 
     // Restituisce true se ha pagato, false se non ha soldi
-    public boolean scalaCredito(double importo) {
+    boolean scalaCredito(double importo) {
         if (this.credito >= importo) {
             this.credito -= importo;
             return true;
