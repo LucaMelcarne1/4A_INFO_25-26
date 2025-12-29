@@ -13,14 +13,6 @@ class Partita {
         // Accesso diretto ai campi senza usare getter
         System.out.println(player1.nome + " ha fatto: " + player1.dado.numeroEstratto);
         System.out.println(player2.nome + " ha fatto: " + player2.dado.numeroEstratto);
-
-        Giocatore vincitore = checkVincitore();
-
-        if (vincitore != null) {
-            System.out.println("Vince: " + vincitore.nome);
-        } else {
-            System.out.println("Pareggio!");
-        }
     }
 
     Giocatore checkVincitore() { // [cite: 5]
