@@ -4,3 +4,6 @@ Repository 4A INFORMATICA A.S. 2025 - 2026
 <h3>ESERCITAZIONI</h3>
 <p><ul><li>PROGETTO ANIMALE: <a href="https://github.com/LucaMelcarne1/4A_INFO_25-26/tree/main/animale">link</a> </li></ul></p>
 <p><ul><li>PROGETTO PERSONA: <a href="https://github.com/LucaMelcarne1/4A_INFO_25-26/tree/main/auto">link</a> </li></ul></p>
+<p><ul><li>PROGETTO COPMUTER: <a href="https://github.com/LucaMelcarne1/4A_INFO_25-26/tree/main/Computer">link</a> </li></ul></p>
+<p><ul><li>PROGETTO COSTRUTTORE: <a href="https://github.com/LucaMelcarne1/4A_INFO_25-26/tree/main/Costruttore">link</a> </li></ul></p>
+<p><ul><li>PROGETTO COSTRUTTORE: <a href="https://github.com/LucaMelcarne1/4A_INFO_25-26/tree/main/Costruttore">link</a> </li></ul></p>
